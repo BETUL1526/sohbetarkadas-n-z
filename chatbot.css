@@ -1,11 +1,12 @@
 /* Chatbot Başlığı */
 h1 {
     color: #4c3d99; /* Mor renk */
-    font-family: 'Segoe Script', cursive; /* Tatlı bir el yazısı fontu */
+    font-family: 'Segoe Script', cursive; /* Güzel ve el yazısı tarzı bir font */
     text-align: center; /* Ortala */
-    margin-bottom: 10px; /* Chatbot kutusuyla arasında boşluk */
+    margin-bottom: 20px; /* Chatbot kutusuyla arasında boşluk */
     font-size: 2.5em; /* Biraz büyük bir yazı boyutu */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    font-style: italic; /* İtalik yazı */
 }
 
 /* Sayfa Genel Ayarları */
@@ -31,6 +32,7 @@ body {
     flex-direction: column;
     background-color: #40e0d0;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Başlık ile kutucuk arasına mesafe ekledik */
 }
 
 /* Mesaj Konteyneri */
