@@ -1,0 +1,95 @@
+/* Chatbot Başlığı */
+h1 {
+    color: #4c3d99; /* Mor renk */
+    font-family: 'Segoe Script', cursive; /* Tatlı bir el yazısı fontu */
+    text-align: center; /* Ortala */
+    margin-bottom: 10px; /* Chatbot kutusuyla arasında boşluk */
+    font-size: 2.5em; /* Biraz büyük bir yazı boyutu */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/* Sayfa Genel Ayarları */
+body {
+    margin: 0;
+    padding: 20px 0; /* Üst ve altta biraz boşluk ekledik başlık için */
+    display: flex;
+    flex-direction: column; /* Öğeleri dikey sıraladık */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* En az ekran yüksekliği kadar olsun */
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+/* Chatbot Ana Konteyner */
+#chatbot-container {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #008080;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #40e0d0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Mesaj Konteyneri */
+#message-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 2px solid #007070;
+    background-color: #ffffff;
+}
+
+/* Mesaj Stilleri */
+#message-container div {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+#message-container .Kullanıcı {
+    align-self: flex-end;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+#message-container .Chatbot {
+    align-self: flex-start;
+    background-color: #e7e3f4;
+    color: #4c3d99;
+}
+
+/* Giriş ve Gönderme Alanı */
+#input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 2px solid #007070;
+    background-color: #f1f1f1;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007070;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#send-button:hover {
+    background-color: #004d4d;
+}
